@@ -1,0 +1,49 @@
+.home{
+background: green;
+	width: 100%;
+	margin: 10px auto;
+}
+.home.header{
+	background: red;
+	padding: 2px 10px;
+}
+.home.menu ul {
+	list-style-type: none;
+	background-color: yellow;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.home.menu ul li{
+	float: left;
+}
+.home.menu ul li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.home .badan{
+	height: 900px;
+}
+.home .badan .sidebar {
+	background: orange;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+.home .badan .content{
+	background: red;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+.clear {
+	clear: both;
+}
+#footer {
+	width: 100%;
+	padding: 10px;
+	background-color: yellow;
+}
